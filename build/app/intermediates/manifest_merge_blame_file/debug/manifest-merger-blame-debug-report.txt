@@ -1,0 +1,386 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.soumyamuru.sr_garage_sale_project"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:9:5-66
+14-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:10:5-66
+15-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:10:22-63
+16    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+16-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:11:5-80
+16-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:11:22-78
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->[:location] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+17-->[:location] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->[:location] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-79
+18-->[:location] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-76
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->[:image_picker] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+19-->[:image_picker] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Include required permissions for Google Maps API to run. -->
+20-->[:image_picker] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+20-->[:image_picker] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.google.android.gms:play-services-maps:17.0.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/355332704fbabf3ed5c20e6555a3126a/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+21-->[com.google.android.gms:play-services-maps:17.0.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/355332704fbabf3ed5c20e6555a3126a/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+22
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:17.0.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/355332704fbabf3ed5c20e6555a3126a/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:17.0.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/355332704fbabf3ed5c20e6555a3126a/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+25        android:required="true" />
+25-->[com.google.android.gms:play-services-maps:17.0.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/355332704fbabf3ed5c20e6555a3126a/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+26
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:25:5-68
+27-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:25:22-65
+28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+28-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:26:5-110
+28-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:26:22-107
+29    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+29-->[com.google.firebase:firebase-iid:20.0.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/6ecc8b301c2aa21236e86c7262436aed/firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
+29-->[com.google.firebase:firebase-iid:20.0.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/6ecc8b301c2aa21236e86c7262436aed/firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
+30
+31    <application
+31-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:12:5-38:19
+32        android:name="io.flutter.app.FlutterApplication"
+32-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:13:9-57
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.2.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/b28d2b369d6203b971713aa1108d9d99/core-1.2.0/AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:15:9-43
+36        android:label="sr_garage_sale_project" >
+36-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:14:9-47
+37        <meta-data
+37-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:18:9-19:70
+38            android:name="com.google.android.geo.API_KEY"
+38-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:18:20-65
+39            android:value="AIzaSyA9hucNl25xdQdKwHWL4B_HnLr6yYBvJ0g" />
+39-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:19:13-68
+40
+41        <activity
+41-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:21:9-32:20
+42            android:name="com.soumyamuru.sr_garage_sale_project.MainActivity"
+42-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:22:13-41
+43            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+43-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:25:13-163
+44            android:hardwareAccelerated="true"
+44-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:26:13-47
+45            android:launchMode="singleTop"
+45-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:23:13-43
+46            android:theme="@style/LaunchTheme"
+46-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:24:13-47
+47            android:windowSoftInputMode="adjustResize" >
+47-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:27:13-55
+48            <intent-filter>
+48-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:28:13-31:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:29:17-68
+49-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:29:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:30:17-76
+51-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:30:27-74
+52            </intent-filter>
+53        </activity>
+54        <!--
+55             Don't delete the meta-data below.
+56             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+57        -->
+58        <meta-data
+58-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:35:9-37:33
+59            android:name="flutterEmbedding"
+59-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:36:13-44
+60            android:value="2" />
+60-->/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/android/app/src/main/AndroidManifest.xml:37:13-30
+61
+62        <provider
+62-->[:image_picker] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+63            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+63-->[:image_picker] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+64            android:authorities="com.soumyamuru.sr_garage_sale_project.flutter.image_provider"
+64-->[:image_picker] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+65            android:exported="false"
+65-->[:image_picker] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+66            android:grantUriPermissions="true" >
+66-->[:image_picker] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+67            <meta-data
+67-->[:image_picker] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+68                android:name="android.support.FILE_PROVIDER_PATHS"
+68-->[:image_picker] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+69                android:resource="@xml/flutter_image_picker_file_paths" />
+69-->[:image_picker] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+70        </provider>
+71
+72        <service
+72-->[:cloud_firestore] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+73            android:name="com.google.firebase.components.ComponentDiscoveryService"
+73-->[:cloud_firestore] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+74            android:directBootAware="true"
+74-->[com.google.firebase:firebase-common:19.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/9ada78a423673a2bdd111073a0042d9e/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+75            android:exported="false" >
+75-->[com.google.firebase:firebase-auth:19.2.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/c8b72275e916ed32c52cbb029194f794/firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
+76            <meta-data
+76-->[:cloud_firestore] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+77                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+77-->[:cloud_firestore] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[:cloud_firestore] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+79            <meta-data
+79-->[:firebase_auth] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+80                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+80-->[:firebase_auth] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[:firebase_auth] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+82            <meta-data
+82-->[:firebase_database] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+83                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+83-->[:firebase_database] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[:firebase_database] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+85            <meta-data
+85-->[:firebase_storage] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+86                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+86-->[:firebase_storage] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[:firebase_storage] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+88            <meta-data
+88-->[:firebase_core] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+89                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+89-->[:firebase_core] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[:firebase_core] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+91            <meta-data
+91-->[:firebase_ml_vision] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+92                android:name="com.google.firebase.components:io.flutter.plugins.firebasemlvision.FlutterFirebaseAppRegistrar"
+92-->[:firebase_ml_vision] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[:firebase_ml_vision] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-auth:19.2.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/c8b72275e916ed32c52cbb029194f794/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+95                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+95-->[com.google.firebase:firebase-auth:19.2.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/c8b72275e916ed32c52cbb029194f794/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-auth:19.2.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/c8b72275e916ed32c52cbb029194f794/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+97            <meta-data
+97-->[com.google.android.gms:play-services-measurement-api:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/8f3fe1781740beda50bcaa65633f421b/play-services-measurement-api-17.3.0/AndroidManifest.xml:30:13-32:85
+98                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+98-->[com.google.android.gms:play-services-measurement-api:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/8f3fe1781740beda50bcaa65633f421b/play-services-measurement-api-17.3.0/AndroidManifest.xml:31:17-139
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.android.gms:play-services-measurement-api:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/8f3fe1781740beda50bcaa65633f421b/play-services-measurement-api-17.3.0/AndroidManifest.xml:32:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-firestore:21.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/86ef31bc37016d7b3b042efe0120d3f0/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:20:13-22:85
+101                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+101-->[com.google.firebase:firebase-firestore:21.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/86ef31bc37016d7b3b042efe0120d3f0/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:21:17-111
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-firestore:21.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/86ef31bc37016d7b3b042efe0120d3f0/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:22:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-database:17.0.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/9c1f16591a34e76fb6970f934a8d5f39/jetified-firebase-database-17.0.0/AndroidManifest.xml:30:13-32:85
+104                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+104-->[com.google.firebase:firebase-database:17.0.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/9c1f16591a34e76fb6970f934a8d5f39/jetified-firebase-database-17.0.0/AndroidManifest.xml:31:17-109
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-database:17.0.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/9c1f16591a34e76fb6970f934a8d5f39/jetified-firebase-database-17.0.0/AndroidManifest.xml:32:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-storage:17.0.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/79a5440c976edf665211a210f8544f52/jetified-firebase-storage-17.0.0/AndroidManifest.xml:31:13-33:85
+107                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+107-->[com.google.firebase:firebase-storage:17.0.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/79a5440c976edf665211a210f8544f52/jetified-firebase-storage-17.0.0/AndroidManifest.xml:32:17-107
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-storage:17.0.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/79a5440c976edf665211a210f8544f52/jetified-firebase-storage-17.0.0/AndroidManifest.xml:33:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-ml-natural-language:19.0.1] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/eaef7dbdfcba48006a6e882438c8d584/jetified-firebase-ml-natural-language-19.0.1/AndroidManifest.xml:12:13-14:85
+110                android:name="com.google.firebase.components:com.google.firebase.ml.naturallanguage.NaturalLanguageRegistrar"
+110-->[com.google.firebase:firebase-ml-natural-language:19.0.1] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/eaef7dbdfcba48006a6e882438c8d584/jetified-firebase-ml-natural-language-19.0.1/AndroidManifest.xml:13:17-126
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-ml-natural-language:19.0.1] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/eaef7dbdfcba48006a6e882438c8d584/jetified-firebase-ml-natural-language-19.0.1/AndroidManifest.xml:14:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-config:17.0.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/5675dd03260dd0537f5c262d6eb22cba/jetified-firebase-config-17.0.0/AndroidManifest.xml:9:13-11:85
+113                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+113-->[com.google.firebase:firebase-config:17.0.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/5675dd03260dd0537f5c262d6eb22cba/jetified-firebase-config-17.0.0/AndroidManifest.xml:10:17-117
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-config:17.0.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/5675dd03260dd0537f5c262d6eb22cba/jetified-firebase-config-17.0.0/AndroidManifest.xml:11:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-iid:20.0.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/6ecc8b301c2aa21236e86c7262436aed/firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
+116                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+116-->[com.google.firebase:firebase-iid:20.0.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/6ecc8b301c2aa21236e86c7262436aed/firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-iid:20.0.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/6ecc8b301c2aa21236e86c7262436aed/firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-abt:17.1.1] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/105465034d9852cfeed98257659692ba/jetified-firebase-abt-17.1.1/AndroidManifest.xml:9:13-11:85
+119                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+119-->[com.google.firebase:firebase-abt:17.1.1] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/105465034d9852cfeed98257659692ba/jetified-firebase-abt-17.1.1/AndroidManifest.xml:10:17-109
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-abt:17.1.1] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/105465034d9852cfeed98257659692ba/jetified-firebase-abt-17.1.1/AndroidManifest.xml:11:17-82
+121        </service>
+122
+123        <activity
+123-->[:url_launcher] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+124            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+124-->[:url_launcher] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+125            android:exported="false"
+125-->[:url_launcher] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+126            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+126-->[:url_launcher] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+127
+128        <provider
+128-->[com.sangcomz:FishBun:0.11.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/d2e87f2cb1877bb5451b334e2dc63aee/jetified-FishBun-0.11.2/AndroidManifest.xml:12:9-20:20
+129            android:name="com.sangcomz.fishbun.FishBunFileProvider"
+129-->[com.sangcomz:FishBun:0.11.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/d2e87f2cb1877bb5451b334e2dc63aee/jetified-FishBun-0.11.2/AndroidManifest.xml:13:13-68
+130            android:authorities="com.soumyamuru.sr_garage_sale_project.fishbunfileprovider"
+130-->[com.sangcomz:FishBun:0.11.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/d2e87f2cb1877bb5451b334e2dc63aee/jetified-FishBun-0.11.2/AndroidManifest.xml:14:13-71
+131            android:exported="false"
+131-->[com.sangcomz:FishBun:0.11.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/d2e87f2cb1877bb5451b334e2dc63aee/jetified-FishBun-0.11.2/AndroidManifest.xml:15:13-37
+132            android:grantUriPermissions="true" >
+132-->[com.sangcomz:FishBun:0.11.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/d2e87f2cb1877bb5451b334e2dc63aee/jetified-FishBun-0.11.2/AndroidManifest.xml:16:13-47
+133            <meta-data
+133-->[:image_picker] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+134                android:name="android.support.FILE_PROVIDER_PATHS"
+134-->[:image_picker] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+135                android:resource="@xml/provider_paths" />
+135-->[:image_picker] /Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+136        </provider>
+137
+138        <activity
+138-->[com.sangcomz:FishBun:0.11.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/d2e87f2cb1877bb5451b334e2dc63aee/jetified-FishBun-0.11.2/AndroidManifest.xml:22:9-25:51
+139            android:name="com.sangcomz.fishbun.ui.album.AlbumActivity"
+139-->[com.sangcomz:FishBun:0.11.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/d2e87f2cb1877bb5451b334e2dc63aee/jetified-FishBun-0.11.2/AndroidManifest.xml:23:13-71
+140            android:label="@string/album"
+140-->[com.sangcomz:FishBun:0.11.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/d2e87f2cb1877bb5451b334e2dc63aee/jetified-FishBun-0.11.2/AndroidManifest.xml:24:13-42
+141            android:theme="@style/FishBunTheme" />
+141-->[com.sangcomz:FishBun:0.11.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/d2e87f2cb1877bb5451b334e2dc63aee/jetified-FishBun-0.11.2/AndroidManifest.xml:25:13-48
+142        <activity
+142-->[com.sangcomz:FishBun:0.11.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/d2e87f2cb1877bb5451b334e2dc63aee/jetified-FishBun-0.11.2/AndroidManifest.xml:26:9-28:51
+143            android:name="com.sangcomz.fishbun.ui.picker.PickerActivity"
+143-->[com.sangcomz:FishBun:0.11.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/d2e87f2cb1877bb5451b334e2dc63aee/jetified-FishBun-0.11.2/AndroidManifest.xml:27:13-73
+144            android:theme="@style/FishBunTheme" />
+144-->[com.sangcomz:FishBun:0.11.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/d2e87f2cb1877bb5451b334e2dc63aee/jetified-FishBun-0.11.2/AndroidManifest.xml:28:13-48
+145        <activity
+145-->[com.sangcomz:FishBun:0.11.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/d2e87f2cb1877bb5451b334e2dc63aee/jetified-FishBun-0.11.2/AndroidManifest.xml:29:9-31:54
+146            android:name="com.sangcomz.fishbun.ui.detail.DetailActivity"
+146-->[com.sangcomz:FishBun:0.11.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/d2e87f2cb1877bb5451b334e2dc63aee/jetified-FishBun-0.11.2/AndroidManifest.xml:30:13-73
+147            android:theme="@style/DetailViewTheme" />
+147-->[com.sangcomz:FishBun:0.11.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/d2e87f2cb1877bb5451b334e2dc63aee/jetified-FishBun-0.11.2/AndroidManifest.xml:31:13-51
+148        <activity
+148-->[com.google.firebase:firebase-auth:19.2.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/c8b72275e916ed32c52cbb029194f794/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+149            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+149-->[com.google.firebase:firebase-auth:19.2.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/c8b72275e916ed32c52cbb029194f794/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+150            android:excludeFromRecents="true"
+150-->[com.google.firebase:firebase-auth:19.2.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/c8b72275e916ed32c52cbb029194f794/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+151            android:exported="true"
+151-->[com.google.firebase:firebase-auth:19.2.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/c8b72275e916ed32c52cbb029194f794/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+152            android:launchMode="singleTask"
+152-->[com.google.firebase:firebase-auth:19.2.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/c8b72275e916ed32c52cbb029194f794/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+153            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+153-->[com.google.firebase:firebase-auth:19.2.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/c8b72275e916ed32c52cbb029194f794/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+154            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Needs to be explicitly declared on P+ -->
+154-->[com.google.firebase:firebase-auth:19.2.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/c8b72275e916ed32c52cbb029194f794/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+155        <uses-library
+155-->[com.google.android.gms:play-services-maps:17.0.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/355332704fbabf3ed5c20e6555a3126a/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+156            android:name="org.apache.http.legacy"
+156-->[com.google.android.gms:play-services-maps:17.0.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/355332704fbabf3ed5c20e6555a3126a/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+157            android:required="false" />
+157-->[com.google.android.gms:play-services-maps:17.0.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/355332704fbabf3ed5c20e6555a3126a/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+158
+159        <receiver
+159-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:29:9-33:20
+160            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+160-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:30:13-85
+161            android:enabled="true"
+161-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:31:13-35
+162            android:exported="false" >
+162-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:32:13-37
+163        </receiver>
+164        <receiver
+164-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:34:9-42:20
+165            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+165-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:35:13-100
+166            android:enabled="true"
+166-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:36:13-35
+167            android:exported="true"
+167-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:37:13-36
+168            android:permission="android.permission.INSTALL_PACKAGES" >
+168-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:38:13-69
+169            <intent-filter>
+169-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:39:13-41:29
+170                <action android:name="com.android.vending.INSTALL_REFERRER" />
+170-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:40:17-79
+170-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:40:25-76
+171            </intent-filter>
+172        </receiver>
+173
+174        <service
+174-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:44:9-47:40
+175            android:name="com.google.android.gms.measurement.AppMeasurementService"
+175-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:45:13-84
+176            android:enabled="true"
+176-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:46:13-35
+177            android:exported="false" />
+177-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:47:13-37
+178        <service
+178-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:48:9-52:72
+179            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+179-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:49:13-87
+180            android:enabled="true"
+180-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:50:13-35
+181            android:exported="false"
+181-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:51:13-37
+182            android:permission="android.permission.BIND_JOB_SERVICE" />
+182-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/7872567f30491a08a28ce6a19b3458ee/play-services-measurement-17.3.0/AndroidManifest.xml:52:13-69
+183
+184        <receiver
+184-->[com.google.firebase:firebase-iid:20.0.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/6ecc8b301c2aa21236e86c7262436aed/firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
+185            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+185-->[com.google.firebase:firebase-iid:20.0.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/6ecc8b301c2aa21236e86c7262436aed/firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
+186            android:exported="true"
+186-->[com.google.firebase:firebase-iid:20.0.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/6ecc8b301c2aa21236e86c7262436aed/firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
+187            android:permission="com.google.android.c2dm.permission.SEND" >
+187-->[com.google.firebase:firebase-iid:20.0.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/6ecc8b301c2aa21236e86c7262436aed/firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
+188            <intent-filter>
+188-->[com.google.firebase:firebase-iid:20.0.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/6ecc8b301c2aa21236e86c7262436aed/firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
+189                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+189-->[com.google.firebase:firebase-iid:20.0.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/6ecc8b301c2aa21236e86c7262436aed/firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
+189-->[com.google.firebase:firebase-iid:20.0.2] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/6ecc8b301c2aa21236e86c7262436aed/firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
+190            </intent-filter>
+191        </receiver>
+192
+193        <provider
+193-->[com.google.firebase:firebase-common:19.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/9ada78a423673a2bdd111073a0042d9e/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+194            android:name="com.google.firebase.provider.FirebaseInitProvider"
+194-->[com.google.firebase:firebase-common:19.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/9ada78a423673a2bdd111073a0042d9e/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+195            android:authorities="com.soumyamuru.sr_garage_sale_project.firebaseinitprovider"
+195-->[com.google.firebase:firebase-common:19.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/9ada78a423673a2bdd111073a0042d9e/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+196            android:exported="false"
+196-->[com.google.firebase:firebase-common:19.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/9ada78a423673a2bdd111073a0042d9e/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+197            android:initOrder="100" />
+197-->[com.google.firebase:firebase-common:19.3.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/9ada78a423673a2bdd111073a0042d9e/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+198
+199        <activity
+199-->[com.google.android.gms:play-services-base:17.1.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/57b0442f3da110455da4760211a188a0/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+200            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+200-->[com.google.android.gms:play-services-base:17.1.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/57b0442f3da110455da4760211a188a0/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+201            android:exported="false"
+201-->[com.google.android.gms:play-services-base:17.1.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/57b0442f3da110455da4760211a188a0/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+202            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+202-->[com.google.android.gms:play-services-base:17.1.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/57b0442f3da110455da4760211a188a0/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+203
+204        <meta-data
+204-->[com.google.android.gms:play-services-basement:17.0.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/4ea7bbba0c2c5e40aa0a992bc794c70f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+205            android:name="com.google.android.gms.version"
+205-->[com.google.android.gms:play-services-basement:17.0.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/4ea7bbba0c2c5e40aa0a992bc794c70f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+206            android:value="@integer/google_play_services_version" />
+206-->[com.google.android.gms:play-services-basement:17.0.0] /Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/4ea7bbba0c2c5e40aa0a992bc794c70f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+207    </application>
+208
+209</manifest>

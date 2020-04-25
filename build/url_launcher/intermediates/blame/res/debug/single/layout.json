@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/url_launcher/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/9dacf9516413cf5e5b34c6b4508340e4/core-1.0.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/url_launcher/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/9dacf9516413cf5e5b34c6b4508340e4/core-1.0.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/url_launcher/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/9dacf9516413cf5e5b34c6b4508340e4/core-1.0.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/url_launcher/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/9dacf9516413cf5e5b34c6b4508340e4/core-1.0.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/rekhayadav/Downloads/FlutterProjectRekha/flutter_app_sr/build/url_launcher/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/rekhayadav/.gradle/caches/transforms-2/files-2.1/9dacf9516413cf5e5b34c6b4508340e4/core-1.0.0/res/layout/notification_template_icon_group.xml"
+    }
+]
