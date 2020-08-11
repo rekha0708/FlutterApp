@@ -1,4 +1,4 @@
-# flutterappsr
+# Hyper Garage Sale Application
 
 A new Flutter application.
 
